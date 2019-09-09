@@ -10,6 +10,7 @@ function addName(){
     
     var name  = txtNameCtrl.value;  
 
+    
     if(name.trim() !== "" ){
         names.push(txtNameCtrl.value);
     }else{
