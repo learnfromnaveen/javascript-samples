@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Arrays example</title>
+    <script type="text/javascript" src="./script.js"/>
+</head>
+
+<body>
+    <div>
+        Enter name:
+    </div>
+    <div>
+        <input type="text" maxlength="50" id="name"  stye="width:400px;"/>
+    </div>
+    <div>
+        Enter name to replace:
+    </div>
+    <div>
+        <input type="text" maxlength="50" id="nameReplace"  stye="width:400px;"/>
+    </div>
+
+    <div>
+        <button onclick="addName()">Add</button>
+        <button onclick="seacrhAndReplace()">Search And Replace</button>
+        <button onclick="seacrhAndDelete()">Search And Delete</button>
+    
+        </div>
+    <div>
+        Results:
+    </div>
+    <div id="result">
+
+    </div>
+
+    <script type="text/javascript">
+        displayNames(names, "result");
+    </script>
+</body>
+
+</html>
