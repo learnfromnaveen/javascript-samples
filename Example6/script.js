@@ -10,9 +10,7 @@ function readName(){
         } // e - exception object
         
     }
-    
 }
-
 
 function displayName(name){
     alert(name);
