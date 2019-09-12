@@ -1,0 +1,9 @@
+.news-container{ 
+    width: 100%;    
+    border: 1px solid grey;
+}
+
+div.article-container{
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
